@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import { MoralisProvider } from 'react-moralis'
 import { GunProvider } from '../context/gunContext'
 import { CoinMarketProvider } from '../context/context'
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function MyApp({ Component, pageProps }) {
   return (
