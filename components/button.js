@@ -3,7 +3,7 @@ const styles = {
 }
 
 const Button = ({ label, onPress }) => {
-    return <button className={styles.button} onClick={onPress}>{label}</button>
+    return  <button className={styles.button} onClick={onPress}>{label}</button>
 }
 
 export default Button

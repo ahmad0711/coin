@@ -2,6 +2,7 @@ import CMCtable from '../components/cmc-table/cmcTable'
 import Header from '../components/header'
 import Trending from '../components/trending'
 import SwapCryptoModal from '../components/swapCryptoModal'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (

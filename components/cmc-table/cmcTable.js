@@ -30,6 +30,16 @@ const CMCtable = () => {
 
   return (
     <div className='text-white font-bold'>
+          <div className="a_tag">
+        <a className='a_tag_text' href="/categories" >Categories</a>
+        <a className='a_tag_text' href="/defi">DeFis</a>
+        <a className='a_tag_text' href="/metaverse">Metaverse</a>
+        <a className='a_tag_text' href="/polkadot">Polkadot</a>
+        <a className='a_tag_text' href="/bnb">BNB Chain</a>
+        <a className='a_tag_text' href="/solana">Solana</a>
+        <a className='a_tag_text' href="/avalanche">Avalanche</a>
+        </div>
+
       <div className='mx-auto max-w-screen-2xl'>
         <table className='w-full'>
           <CMCtableHeader />
@@ -60,6 +70,9 @@ const CMCtable = () => {
           )}
         </table>
       </div>
+
+
+     
     </div>
   )
 }
